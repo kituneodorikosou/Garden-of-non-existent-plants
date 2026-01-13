@@ -1,0 +1,230 @@
+body {
+    color: #6e4598;
+    text-align: center;
+    overflow: scroll;
+}
+
+.yokohabba-n {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #6e4598;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+h1 {
+    font-size: clamp(20px, 8.8vw, 55px);
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 33px;
+    letter-spacing: 3px;
+}
+
+#statttonn h2 {
+    text-align: left;
+}
+
+#statttonn img {
+    max-width: 100%;
+    height: auto;
+}
+
+#statttonn p {
+    font-size: 20px;
+}
+
+#kituneMeid {
+    margin: 100px 0 10px;
+}
+
+#kituneMeid h2 {
+    color: #EFE0FB;
+    padding: 30px;
+    background-color: #6e4598;
+}
+
+.L {
+    margin-left: 50px;
+    text-align: left;
+    color: #6e4598;
+    font-size: 20px;
+}
+
+.L ul li a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.L ul li a:hover {
+    color: #6e4598;
+    text-decoration: none;
+}
+
+#kituneTuite {
+    margin: 100px 0 10px;
+}
+
+#kituneTuite h2 {
+    color: #EFE0FB;
+    padding: 30px;
+    background-color: #6e4598;
+}
+
+.T {
+    margin-left: 50px;
+    text-align: left;
+    color: #6e4598;
+    font-size: 20px;
+}
+
+.T ul li a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.T ul li a:hover {
+    color: #6e4598;
+    text-decoration: none;
+}
+
+.M {
+    margin-top: 142px;
+    margin-left: 50px;
+    text-align: left;
+    color: #6e4598;
+    font-size: 20px;
+}
+
+.M ul li a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.M ul li a:hover {
+    color: #6e4598;
+    text-decoration: none;
+}
+
+.SYO {
+    margin-top: 144px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.SYO p a {
+    color: #f8efff;
+    text-decoration: none;
+}
+
+.SYO p a:hover {
+    cursor: default;
+    color: #f8efff;
+    text-decoration: underline;
+}
+
+#titlee {
+    text-align: left;
+}
+
+#titlee p {
+    font-size: 20px;
+}
+
+#titlee p2 {
+    font-size: 17px;
+}
+
+#titlee h3 {
+    margin: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+}
+
+#titlee h3 a {
+    color: #6e4598;
+    text-decoration: none;
+}
+
+#titlee h3 a:hover {
+    text-decoration: underline;
+}
+
+#H {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#H img {
+    height: 72px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 100%;
+    left: 0%;
+    z-index: 90;
+    background: #f7eeff;
+    transition: .2s;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+#MBC:checked ~ .menu {
+    bottom: 0;
+}
+
+#MBC:checked ~ body {
+    overflow: hidden;
+}
+
+#MBC {
+    display: none;
+}
+
+
+/* 🍎 修正後のスクロール停止用クラス */
+/* bodyではなく、htmlに適用するクラス名を変え、CSSを調整します */
+.is-menu-open-scroll-stop {
+    /* ページのスクロールバーを非表示にする */
+    overflow: hidden;
+    /* 画面の高さを100%に固定し、スクロール領域をなくす */
+    height: 100vh; 
+}
+
+#dairi-gumi img {
+    padding: 1%;
+    max-width: 19%;
+    border-radius: 100%;
+}
+
+#higan img {
+    padding: 1%;
+    max-width: 19%;
+    border-radius: 100%;
+}
+
+footer {
+    margin-top: 100px;
+}
